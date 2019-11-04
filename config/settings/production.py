@@ -6,7 +6,7 @@ from .base import env
 # https://docs.djangoproject.com/en/dev/ref/settings/#secret-key
 SECRET_KEY = env("DJANGO_SECRET_KEY")
 # https://docs.djangoproject.com/en/dev/ref/settings/#allowed-hosts
-ALLOWED_HOSTS = env.list("DJANGO_ALLOWED_HOSTS", default=["https://dry-everglades-79657.herokuapp.com/"])
+ALLOWED_HOSTS = env.list("DJANGO_ALLOWED_HOSTS", default=["auz.zamy@gmail.com"])
 
 # DATABASES
 # ------------------------------------------------------------------------------
@@ -138,9 +138,9 @@ INSTALLED_APPS += ["anymail"]  # noqa F405
 EMAIL_BACKEND = "anymail.backends.mailgun.EmailBackend"
 # https://anymail.readthedocs.io/en/stable/installation/#anymail-settings-reference
 ANYMAIL = {
-    "MAILGUN_API_KEY": env("98ef434a5f52386249988a437bf4d94e-f696beb4-20c0d485"),
+    "MAILGUN_API_KEY": env("MAILGUN_API_KEY"),
     "MAILGUN_SENDER_DOMAIN": env("MAILGUN_DOMAIN"),
-    "MAILGUN_API_URL": env("andboxd65496ccb0cb42b98b6fa840752d975a.mailgun.org", default="https://api.mailgun.net/v3"),
+    "MAILGUN_API_URL": env("MAILGUN_API_URL", default="https://api.mailgun.net/v3"),
 }
 
 # WhiteNoise
