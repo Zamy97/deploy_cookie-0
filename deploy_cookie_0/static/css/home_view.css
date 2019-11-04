@@ -1,0 +1,7 @@
+#bkgroung_pic{
+  background: url('https://images.unsplash.com/photo-1552053387-494dfcf63b47?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
