@@ -88,3 +88,8 @@ If you run into Mailgun configuration issues please for the sake of your time lo
 
 Help with the subdomain DNS setup: https://simpleisbetterthancomplex.com/tutorial/2017/05/27/how-to-configure-mailgun-to-send-emails-in-a-django-app.html
 Actual issue being opened on Cookiecutter-Django = https://github.com/pydanny/cookiecutter-django/issues/1705
+More Isuues on Mailgun-1: https://github.com/pydanny/cookiecutter-django/issues/788
+More Isuues on Mailgun-2: https://github.com/pydanny/cookiecutter-django/pull/1545
+More Isuues on Mailgun-3: https://github.com/pydanny/cookiecutter-django/pull/1545/files/82dcd2d30c3ad358407ac5a4aa7c864ed5aec49a
+Django-anymail: https://github.com/anymail/django-anymail
+finally the  MAILGUN: https://app.mailgun.com/app/sending/domains/mg.aktarzaman.com
