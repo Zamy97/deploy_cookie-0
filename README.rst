@@ -84,6 +84,7 @@ See detailed `cookiecutter-django Heroku documentation`_.
 
 .. _`cookiecutter-django Heroku documentation`: http://cookiecutter-django.readthedocs.io/en/latest/deployment-on-heroku.html
 
+If you run into Mailgun configuration issues please for the sake of your time look into these resources:
 
-
-
+Help with the subdomain DNS setup: https://simpleisbetterthancomplex.com/tutorial/2017/05/27/how-to-configure-mailgun-to-send-emails-in-a-django-app.html
+Actual issue being opened on Cookiecutter-Django = https://github.com/pydanny/cookiecutter-django/issues/1705
